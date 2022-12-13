@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Bahiana', cursiva;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(116, 116, 243, 0.591);
+    color: rgb(13, 13, 158);
+    height: 200px;
+    font-family:'Bahiana', cursiva;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 700px;
+    font-family: 'Bahiana', cursiva;
+}
+
+h2 {
+    font-family:'Bahiana', cursiva;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: 'Bahiana', cursiva;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Klee One', cursiva;
+    text-align: justify;
+}
+
+#menu_direita_header ul {
+display: flex;
+justify-content: space-around;
+}
+
+#menu_direita_header li {
+    list-style: none; /*tira pontinho preto de qualquer tag ul li em todo documento, incluindo os links e as imagens*/
+}
+
+#menu_direita_header a {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(13, 13, 158) ;
+    background-color: rgba(115, 157, 219, 0.285);
+}
+
+#menu_direita_header a:hover {
+    text-decoration: underline;
+    color: rgb(92, 94, 220);
+}
+
+#imagem_mulher li {
+    list-style: none;
+}
+
+#imagem_mulher img {
+    height: 700px;
+}
+
+#sobre_os_surdos {
+    display: flex;
+    align-items: center;
+}
+
+#sobre_os_surdos h2 {
+    padding-right: 10px;
+}
+
+#imagens_das_redes_sociais {
+    list-style: none; /*tira pontinho preto de qualquer tag ul li em todo documento, incluindo os links e as imagens*/
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagens_das_redes_sociais img {
+    height: 100px;
+    width: auto;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 200px;
+}
+
+#formulario input, textarea {
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#formulario textarea {
+    resize: none; /*por padrão a caixinha do texto pode ser aumentada pelo usuário. Esse atributo impede que o usuário "estique" a caixainha*/
+    height: 150px;
+}
+
+button {
+    background: rgba(116, 116, 243, 0.591);
+    cursor: pointer; /*essa atributo faz o ponteiro se transforma numa mãozinha ao ser colocado em cima do botão*/
+}
+
+button:hover {/*aqui vai pode ser colocado as propriedades e atributos para estilizar o comportamento do botão quando o mouse for passado em cima dele*/
+    text-decoration: underline;
+    background-color: rgba(58, 227, 87, 0.614);
+    color: rgba(8, 8, 241, 0.938);
+}
+
+#form_e_redessociais {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#form_e_redessociais h2, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container {
+    background: rgba(116, 116, 243, 0.591);
+    color: rgb(13, 13, 158);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+footer .container p, address {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
