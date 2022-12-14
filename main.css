@@ -38,7 +38,7 @@ h3 {
     margin-top: 30px;
 }
 
-p {
+p, address {
     font-family: 'Klee One', cursiva;
     text-align: justify;
 }
